@@ -1,0 +1,21 @@
+/*Targetting elements at a certain breakpoint (the size of the screen)
+  min-width you are targetting elements going up
+  max-width you are targetting elements going down */
+
+@media (min-width: 992px) {
+    body {
+        background-color: blue;
+    }
+    h1 {
+        color: yellow;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-color: red;
+    }
+    h1 {
+        color: green;
+    }
+}

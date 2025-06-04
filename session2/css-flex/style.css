@@ -1,0 +1,47 @@
+/*UNIVERSAL SELECTOR (*) IT WILL SELECT ALL  ELEMENTS INSIDE*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .parent {
+  display: flex;
+  background-color: rebeccapurple;
+  flex-wrap: wrap;
+}
+
+.child {
+  border: 2px solid black;
+}
+
+.child-1 {
+  width: 50%;
+}
+
+.child-2 {
+  width: 30%;
+}
+
+.child-3 {
+  width: 50%;
+} */
+
+.parent {
+  display: flex; /* turns elements into a single row */
+  column-gap: 15px;
+  justify-content: center;
+}
+
+.child {
+  border: 2px solid rgb(204, 204, 204);
+}
+
+/*Target all images inside an element with class called child. Fit in the image inside the dedicated box*/
+.child img {
+  width: 100%;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
